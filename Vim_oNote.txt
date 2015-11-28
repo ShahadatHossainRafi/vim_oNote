@@ -1,6 +1,6 @@
 
-Basic
-------
+Vim Basic
+----------
 
 @- Vim has 2 basic modes...
 
@@ -22,7 +22,7 @@ Navigation
 
 @- (COMMAND) Naviagation keys...
 
-   h - To browse leftward. 
+   h - To browse leftward.
    l - To browse rightward.
    j - To browse downward.
    k - To browse upward.
@@ -41,14 +41,14 @@ Navigation
 
 @- (COMMAND) Numeric key + Navigation key combination...
 
-   Numeric keys (1, 2, 3, 4, ..., 9 and 0) can be combined with navigation keys for faster navigate.
+   Numeric keys (1, 2, 3, 4, ..., 9 and 0) can be combined with navigation keys (h, j, k, l, w, e, b) for faster navigate.
    e.g. To move 5 words rightward - 5w
         To move 6 words rightward - 6e
         To move 8 words backward - 8b 
         To move to 10 characters rightward - 10l
         To move to 4 lines upward - 4k
         To move to 8 lines downward - 8j
-        To move to 3 characters rightward - 3h
+        To move to 3 characters leftward - 3h
 
 
 
@@ -57,7 +57,7 @@ Composing
 
 @- To write text multiple time...
 
-   esc <text to be written multiple times> esc
+   esc + number + i + <text to be written multiple times> + esc
 
    e.g. To write the word "text" 10 times... 
         (COMMAND) 10
