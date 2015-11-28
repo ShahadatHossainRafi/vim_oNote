@@ -1,5 +1,8 @@
 
+----------
+----------
 Vim Basic
+----------
 ----------
 
 @- Vim has 2 basic modes...
@@ -17,7 +20,10 @@ Vim Basic
 
 
 
+-----------
+-----------
 Navigation
+-----------
 -----------
 
 @- (COMMAND) Naviagation keys...
@@ -50,9 +56,19 @@ Navigation
         To move to 8 lines downward - 8j
         To move to 3 characters leftward - 3h
 
+@- To move to beginning of the line...
+
+   0
+
+@- To move to end of the line...
+
+   $
 
 
+----------
+----------
 Composing
+----------
 ----------
 
 @- To write text multiple time...
@@ -66,8 +82,11 @@ Composing
 
 
 
-Searching
-----------
+-------------------------
+-------------------------
+Searching inside document
+-------------------------
+-------------------------
 
 @- To find next occurrence of a character within the same line...
 
@@ -88,3 +107,37 @@ Searching
 
         To find previous occurrence of I...
         FI
+
+@- f key can be combined with numerical keys to do faster searching...
+
+   esc + <number> + f + <character we are searching>
+
+   e.g. (COMMAND) 3fo to find 3rd occurence of "o".
+
+@- To see closing bracket...
+
+   %
+
+   e.g. To see closing brackets for (lorem ipsum dolor siet amot), {lorem ipsum dolor siet amot}, [lorem ipsum dolor siet amot]
+
+@- To find next occurance of word under cursor...
+
+   *
+
+@- To find previous occurrence of word under cursor...
+
+   #
+
+
+
+------------------
+------------------
+Yet More Commands
+------------------
+------------------
+
+@- To repeat last command...
+
+   .
+
+@- 
