@@ -1,4 +1,4 @@
-SQL_oNote
+#Vim_oNote
 
 Vim_oNote is a project which keeps...
 
