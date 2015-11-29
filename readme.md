@@ -13,8 +13,18 @@ Vim oNote project is created based on...
 2- http://www.openvim.com/
 
 
+Vim Tutorial
+----------------
+
 More details of the project including a Vim tutorial (both English and Bangla) can be found in...
 
-English - http://www.in2rafi.com/vim-tutorial-learn-vim-with-rafi/
+* [Vim Tutorial (English)] - (http://www.in2rafi.com/vim-tutorial-learn-vim-with-rafi/)
 
-Bangla - http://www.in2rafi.com/BN/vim-tutorial-learn-vim-with-rafi/
+* [Vim Tutorial (Bangla)] - (http://www.in2rafi.com/BN/vim-tutorial-learn-vim-with-rafi/)
+
+
+Contact
+-------
+
+* rafi@in2rafi.com
+* http://www.in2rafi.com
