@@ -1,22 +1,32 @@
-
 ----------
 ----------
 Vim Basic
 ----------
 ----------
 
-@- Vim has 2 basic modes...
+@- Vim has ___  basic modes...
 
-  1- Normal mode.
-  2- INSERT mode.
+   Vim has 3 basic modes.
+
+   1- Normal mode.
+   2- INSERT mode.
+   3- VISUAL mode.
 
 @- To go to normal mode...
 
-  press "esc" key.
+   press "esc" key.
 
-@- To go to insert mode...
+@- To go to "INSERT" mode...
 
-  press "i" key.
+   press "i" key.
+
+@- To go to "VISUAL" mode...
+
+   Press "v" key.
+
+@- To get help...
+
+   :help
 
 
 
@@ -33,21 +43,21 @@ Navigation
    j - To browse downward.
    k - To browse upward.
 
-@- (COMMAND) To move to beginning of the current/next word.
+@- To move to beginning of the current/next word.
 
-   w (word)
+   (COMMAND) w (word)
 
-@- (COMMAND) To move to the end of the current/next word...
+@- To move to the end of the current/next word...
 
-   e (end)
+   (COMMAND) e (end)
 
-@- (COMMAND) To move to the beginning of the current/previous word...
+@- To move to the beginning of the current/previous word...
 
-   b (back)
+   (COMMAND) b (back)
 
-@- (COMMAND) Numeric key + Navigation key combination...
+@- Numeric key + Navigation key combination...
 
-   Numeric keys (1, 2, 3, 4, ..., 9 and 0) can be combined with navigation keys (h, j, k, l, w, e, b) for faster navigate.
+   (COMMAND) Numeric keys (1, 2, 3, 4, ..., 9 and 0) can be combined with navigation keys (h, j, k, l, w, e, b) for faster navigate.
    e.g. To move 5 words rightward - 5w
         To move 6 words rightward - 6e
         To move 8 words backward - 8b 
@@ -58,11 +68,59 @@ Navigation
 
 @- To move to beginning of the line...
 
-   0
+   (COMMAND) 0
 
 @- To move to end of the line...
 
-   $
+   (COMMAND) $
+
+@- To go to beginneing of the document...
+
+   (COMMAND) gg
+
+@- To go to end of the document...
+
+   (COMMAND) G
+
+@- To move to a specific line...
+
+   (COMMAND) <line number>G
+
+   e.g. To go to 3rd line of the document.
+        3G
+
+
+
+-------------------------------
+-------------------------------
+Opening, Closing & Saving Files
+-------------------------------
+-------------------------------
+
+@- To save a file...
+
+   :w <file name>
+
+@- To save and close a file...
+
+   :wq (quit)
+
+@- To close without saving...
+
+   :q!
+
+@- To split an window...
+
+   :split
+
+@- To split an window vertically...
+
+   :vsplit
+
+@- Split window and open a new file...
+
+   :split <file name>
+
 
 
 ----------
@@ -79,6 +137,54 @@ Composing
         (COMMAND) 10
         (INSERT) text
         (COMMAND)
+
+@- To insert a new line after current line...
+
+   o
+
+@- To insert a new line before current line...
+
+   O
+
+@- To delete...
+
+   x (x works as if delete key)
+
+@- To backspace...
+
+   X
+
+@- To replace a single character...
+
+   (COMMAND) when the cursor is on the character press 'r'. And then press the character you want to replace.
+
+@- To cut...
+
+   (COMMAND) d
+
+@- To copy...
+
+
+   (COMMAND) y
+
+@- To paste
+
+   (COMMAND) p
+
+@- To cut multiple words at the same time... 
+
+   d<number><navigation key>
+
+   e.g. To cut current and next 5 words...
+        d5w
+
+@- To undo a change...
+
+   (COMMAND) u
+
+@- To redo...
+
+   (COMMAND) ctrl+r
 
 
 
@@ -127,6 +233,18 @@ Searching inside document
 @- To find previous occurrence of word under cursor...
 
    #
+
+@- To search a string...
+
+   /<string to be searched>
+
+@- To search next string matches to the querry...
+
+   n
+
+@- To search previous string matches to the querry...
+
+   N
 
 
 
