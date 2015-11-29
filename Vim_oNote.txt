@@ -36,7 +36,7 @@ Navigation
 -----------
 -----------
 
-@- (COMMAND) Naviagation keys...
+@- (COMMAND) Navigation keys...
 
    h - To browse leftward.
    l - To browse rightward.
@@ -74,7 +74,7 @@ Navigation
 
    (COMMAND) $
 
-@- To go to beginneing of the document...
+@- To go to beginning of the document...
 
    (COMMAND) gg
 
@@ -170,7 +170,7 @@ Composing
 
    D
 
-@- To swip current line and go to the INSERT mode...
+@- To sweep current line and go to the INSERT mode...
 
    S
 
@@ -205,7 +205,7 @@ Composing
 
    A
 
-@- To apppend text from right hand side of the curosr...
+@- To append text from right hand side of the cursor...
 
    a
 
@@ -241,7 +241,7 @@ Searching inside document
 
    esc + <number> + f + <character we are searching>
 
-   e.g. (COMMAND) 3fo to find 3rd occurence of "o".
+   e.g. (COMMAND) 3fo to find 3rd occurrence of "o".
 
 @- To see closing bracket...
 
@@ -249,7 +249,7 @@ Searching inside document
 
    e.g. To see closing brackets for (lorem ipsum dolor siet amot), {lorem ipsum dolor siet amot}, [lorem ipsum dolor siet amot]
 
-@- To find next occurance of word under cursor...
+@- To find next occurrence of word under cursor...
 
    *
 
@@ -261,11 +261,11 @@ Searching inside document
 
    /<string to be searched>
 
-@- To search next string matches to the querry...
+@- To search next string matches to the query...
 
    n
 
-@- To search previous string matches to the querry...
+@- To search previous string matches to the query...
 
    N
 
@@ -280,3 +280,17 @@ Yet More Commands
 @- To repeat last command...
 
    . And ;
+
+
+
+------------
+------------
+.vimrc File
+------------
+------------
+
+@- To enable spell checking...
+
+   set spell
+
+
