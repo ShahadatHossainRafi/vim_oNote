@@ -89,6 +89,10 @@ Navigation
    e.g. To go to 3rd line of the document.
         3G
 
+@- To go back to the end of the previous word...
+
+   (COMMAND) ge
+
 
 
 -------------------------------
@@ -162,10 +166,21 @@ Composing
 
    (COMMAND) d
 
+@- To cut from current position to the end of the line...
+
+   D
+
+@- To swip current line and go to the INSERT mode...
+
+   S
+
 @- To copy...
 
-
    (COMMAND) y
+
+@- To copy current line...
+
+   yy
 
 @- To paste
 
@@ -185,6 +200,14 @@ Composing
 @- To redo...
 
    (COMMAND) ctrl+r
+
+@- To append text at the end of the sentence...
+
+   A
+
+@- To apppend text from right hand side of the curosr...
+
+   a
 
 
 
@@ -256,6 +279,4 @@ Yet More Commands
 
 @- To repeat last command...
 
-   .
-
-@- 
+   . And ;
