@@ -18,9 +18,9 @@ Vim Tutorial
 
 More details of the project including a Vim tutorial (both English and Bangla) can be found in...
 
-* [Vim Tutorial - English] - (http://www.in2rafi.com/vim-tutorial-learn-vim-with-rafi/)
+* [Vim Tutorial - English](http://www.in2rafi.com/vim-tutorial-learn-vim-with-rafi/)
 
-* [Vim Tutorial - Bangla] - (http://www.in2rafi.com/BN/vim-tutorial-learn-vim-with-rafi/)
+* [Vim Tutorial - Bangla](http://www.in2rafi.com/BN/vim-tutorial-learn-vim-with-rafi/)
 
 
 Contact
