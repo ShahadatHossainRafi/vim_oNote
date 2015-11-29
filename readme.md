@@ -7,10 +7,13 @@ Vim_oNote is a project which keeps...
 
 ***Vim oNote project will not keep/deal with any GVIM command.
 
-Vim oNote project is created based on...
+Vim oNote projec is encouraged by...
+------------------------------------
 
-1- Stackoverflow answers.
-2- http://www.openvim.com/
+* [Stackoverflow Vim Brainstorming Sessions](http://stackoverflow.com/questions/tagged/vim)
+* [Open Vim Interactive Tutorial](http://www.openvim.com/)
+* [Learn Vimscript The Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
+* [Turning Vim into a Modern Python IDE](http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html)
 
 
 Vim Tutorial
@@ -26,5 +29,5 @@ More details of the project including a Vim tutorial (both English and Bangla) c
 Contact
 -------
 
-* rafi@in2rafi.com
-* http://www.in2rafi.com
+* email   rafi@in2rafi.com
+* Website http://www.in2rafi.com
