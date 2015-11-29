@@ -7,13 +7,12 @@ Vim_oNote is a project which keeps...
 
 ***Vim oNote project will not keep/deal with any GVIM command.
 
-Vim oNote projec is encouraged by...
+Vim oNote project is encouraged by...
 ------------------------------------
 
 * [Stackoverflow Vim Brainstorming Sessions](http://stackoverflow.com/questions/tagged/vim)
 * [Open Vim Interactive Tutorial](http://www.openvim.com/)
 * [Learn Vimscript The Hard Way](http://learnvimscriptthehardway.stevelosh.com/)
-* [Turning Vim into a Modern Python IDE](http://www.sontek.net/blog/2011/05/07/turning_vim_into_a_modern_python_ide.html)
 
 
 Vim Tutorial

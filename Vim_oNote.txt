@@ -293,4 +293,6 @@ Yet More Commands
 
    set spell
 
+@- To enable line numbers...
 
+   set number
