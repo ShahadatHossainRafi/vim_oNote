@@ -24,9 +24,21 @@ Vim Basic
 
    Press "v" key.
 
+@- To replace big amount of characters...
+
+   We use REPLACE mode...
+
+@- To switch to REPLACE mode...
+
+   R
+
 @- To get help...
 
    :help
+
+@- To cancel a command...
+
+   press "esc" key.
 
 
 
@@ -113,6 +125,14 @@ Opening, Closing & Saving Files
 
    :q!
 
+
+
+----------------
+----------------
+Splitting Window
+----------------
+----------------
+
 @- To split an window...
 
    :split
@@ -125,7 +145,7 @@ Opening, Closing & Saving Files
 
    :split <file name> or vsplit <file name>
 
-@- To jump move between splitted windows...
+@- To move between splitted windows...
 
    ctrl + ww
 
@@ -174,13 +194,17 @@ Composing Texts
 
    D
 
-@- To sweep current line and go to the INSERT mode...
+@- To sweep out current line and switch to the INSERT mode...
 
    S
 
+@- Difference between D and S...
+
+   D cuts the string and don't changes existing mode. On the other hand S cuts string and switches from current mode to INSERT mode.
+
 @- To copy...
 
-   (COMMAND) y
+   (COMMAND) y (yunk)
 
 @- To copy current line...
 
@@ -198,6 +222,14 @@ Composing Texts
 
         d5w
 
+@- To copy in clipboard...
+
+   "+y
+
+@- To paste from clipboard...
+
+   "+p
+
 @- To undo a change...
 
    (COMMAND) u
@@ -210,7 +242,7 @@ Composing Texts
 
    A
 
-@- To append text from right hand side of the cursor...
+@- To append text on right hand side of the cursor...
 
    a
 
@@ -288,11 +320,41 @@ Yet More Commands
 
 
 
+-------------
+-------------
+Color Schemes
+-------------
+-------------
+
+@- To see list of color schemes...
+
+   :colorscheme <tab> (After :colorscheme press space and then press tab button repeatedly to see list of color schemes.)
+
+@- To change a color scheme...
+
+   :colorscheme <name of the color scheme>
+
+@- To see which color scheme is currently showing...
+
+   :echo g:colors_name
+
+@- Color scheme folder path...
+
+   usr/share/vim/vim74/colors
+
+
+
 ------------
 ------------
 .vimrc File
 ------------
 ------------
+
+@- To comment in .vimrc file...
+
+   "
+
+   e.g. "This is a comment.
 
 @- To enable spell checking...
 
@@ -301,3 +363,21 @@ Yet More Commands
 @- To enable line numbers...
 
    set number
+
+@- To set color scheme...
+
+   colorscheme <color scheme name>
+
+@- A function which will show the current color scheme... 
+
+function! ShowColorSchemeName()
+    try
+        echo g:colors_name
+    catch /^Vim:E121/
+        echo "default"
+    endtry
+endfunction
+
+@- To call a function from vim... 
+
+   :call <function_name()>
