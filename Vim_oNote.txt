@@ -43,7 +43,7 @@ Navigation
    j - To browse downward.
    k - To browse upward.
 
-@- To move to beginning of the current/next word.
+@- To move to beginning of the next word.
 
    (COMMAND) w (word)
 
@@ -57,7 +57,7 @@ Navigation
 
 @- Numeric key + Navigation key combination...
 
-   (COMMAND) Numeric keys (1, 2, 3, 4, ..., 9 and 0) can be combined with navigation keys (h, j, k, l, w, e, b) for faster navigate.
+   (COMMAND) Numeric keys (0, 1, 2, 3, 4, ..., 9) can be combined with navigation keys (h, j, k, l, w, e, b) for faster navigation.
    e.g. To move 5 words rightward - 5w
         To move 6 words rightward - 6e
         To move 8 words backward - 8b 
@@ -66,7 +66,7 @@ Navigation
         To move to 8 lines downward - 8j
         To move to 3 characters leftward - 3h
 
-@- To move to beginning of the line...
+@- To move to the beginning of the line...
 
    (COMMAND) 0
 
@@ -103,7 +103,7 @@ Opening, Closing & Saving Files
 
 @- To save a file...
 
-   :w <file name>
+   :w 
 
 @- To save and close a file...
 
@@ -123,36 +123,40 @@ Opening, Closing & Saving Files
 
 @- Split window and open a new file...
 
-   :split <file name>
+   :split <file name> or vsplit <file name>
+
+@- To jump move between splitted windows...
+
+   ctrl + ww
 
 
 
-----------
-----------
-Composing
-----------
-----------
+---------------
+---------------
+Composing Texts
+---------------
+---------------
 
 @- To write text multiple time...
 
    esc + number + i + <text to be written multiple times> + esc
 
-   e.g. To write the word "text" 10 times... 
+   e.g. To write the word "Hello World" 10 times... 
         (COMMAND) 10
-        (INSERT) text
+        (INSERT) Hello world
         (COMMAND)
 
 @- To insert a new line after current line...
 
    o
 
-@- To insert a new line before current line...
+@- To insert a new line above current line...
 
    O
 
 @- To delete...
 
-   x (x works as if delete key)
+   x (x works as if it is delete key)
 
 @- To backspace...
 
@@ -191,6 +195,7 @@ Composing
    d<number><navigation key>
 
    e.g. To cut current and next 5 words...
+
         d5w
 
 @- To undo a change...

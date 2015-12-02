@@ -1,11 +1,14 @@
 #Vim_oNote
 
+
 Vim_oNote is a project which keeps...
 
 1- A Vim cheat sheet.
 2- A Vim oNote.
 
+
 ***Vim oNote project will not keep/deal with any GVIM command.
+
 
 Vim oNote project is encouraged by...
 ------------------------------------
@@ -18,7 +21,7 @@ Vim oNote project is encouraged by...
 Vim Tutorial
 ----------------
 
-More details of the project including a Vim tutorial (both English and Bangla) can be found in...
+More details of the project including a Vim Tutorial (both English and Bangla) can be found in...
 
 * [Vim Tutorial - English](http://www.in2rafi.com/vim-tutorial-learn-vim-with-rafi/)
 * [Vim Tutorial - Bangla](http://www.in2rafi.com/BN/vim-tutorial-learn-vim-with-rafi/)
@@ -27,5 +30,5 @@ More details of the project including a Vim tutorial (both English and Bangla) c
 Contact
 -------
 
-* email     rafi@in2rafi.com
+* Email     rafi@in2rafi.com
 * Website   http://www.in2rafi.com

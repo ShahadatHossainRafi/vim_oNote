@@ -1,0 +1,93 @@
+@- To go to normal mode...
+
+   press "esc" key.
+
+@- To go to INSERT mode...
+
+   press "i" key.
+
+@- To go to VISUAL mode...
+
+   Press "v" key.
+
+@- To get help...
+
+   :help
+
+
+
+-----------
+-----------
+Navigation
+-----------
+-----------
+
+@- Navigation keys...
+
+   h, j, k, l, w, e, b
+
+@- Move beginning of current line...
+
+   0
+
+@- Move end of the line...
+
+   $
+
+@- Go to top of the doc...
+
+   gg
+
+@- Go to bottom of the doc...
+
+   G
+
+@- Move to a specific line...
+
+   <line number>G
+
+@- Go back end of previous word...
+
+   ge
+
+
+
+-------------------------------
+-------------------------------
+Opening, Closing & Saving Files
+-------------------------------
+-------------------------------
+
+@- Save file...
+
+   :w
+
+@- Save and close...
+
+   :wq
+
+@- Close without saving...
+
+   :q!
+
+@- Split a window...
+
+   :split
+
+@- Vertically split a window...
+
+   :vsplit
+
+@- Move between splited windows...
+
+   ctrl+ww
+
+
+
+---------------
+---------------
+Composing Texts
+---------------
+---------------
+
+
