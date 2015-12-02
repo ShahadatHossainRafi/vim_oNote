@@ -1,18 +1,20 @@
-@- To go to normal mode...
+----------
+----------
+Vim Basics
+----------
+----------
 
-   press "esc" key.
+@- Switch to REPLACE mode - Press "esc" key.
 
-@- To go to INSERT mode...
+@- Switch to INSERT mode - Press "i" key.
 
-   press "i" key.
+@- Switch to VISUAL mode - Press "v" key.
 
-@- To go to VISUAL mode...
+@- Switch to REPLACE mode - Press "R" key.
 
-   Press "v" key.
+@- To get help - :help
 
-@- To get help...
-
-   :help
+@- To cancel navigation - Press "esc" key.
 
 
 
@@ -24,31 +26,38 @@ Navigation
 
 @- Navigation keys...
 
-   h, j, k, l, w, e, b
+   h to move left.
+   l to move right.
+   k to move up.
+   j to move down. 
 
-@- Move beginning of current line...
+@- Move to the beginning of the next word - w
 
-   0
+@- Move to end of the current/next word - e
 
-@- Move end of the line...
+@- Move to beginning of the current/previous word - b
 
-   $
+@- Move 10 characters left - 10h
 
-@- Go to top of the doc...
+@- Move 10 characters right - 10l
 
-   gg
+@- Move 10 words right - 10w
 
-@- Go to bottom of the doc...
+@- Move 10 words right and put cursor at the end of the last word - 10e
 
-   G
+@- Move 10 words backward - 10b
 
-@- Move to a specific line...
+@- Move beginning of current line - 0
 
-   <line number>G
+@- Move end of the line - $
 
-@- Go back end of previous word...
+@- Go to top of the doc - gg
 
-   ge
+@- Go to bottom of the doc - G
+
+@- Move to a specific line - <line number>G
+
+@- Go back end of previous word - ge
 
 
 
@@ -58,29 +67,27 @@ Opening, Closing & Saving Files
 -------------------------------
 -------------------------------
 
-@- Save file...
+@- Save file - :w
 
-   :w
+@- Save and close - :wq 
 
-@- Save and close...
+@- Close without saving - :q!
 
-   :wq
 
-@- Close without saving...
 
-   :q!
+-------------------------------
+-------------------------------
+Working Within Multiple Windows
+-------------------------------
+-------------------------------
 
-@- Split a window...
+@- Split a window - :split
 
-   :split
+@- Vertically split a window - :vsplit
 
-@- Vertically split a window...
+@- Split and open a new file - :split <file name> or :vsplit <file name>
 
-   :vsplit
-
-@- Move between splited windows...
-
-   ctrl+ww
+@- Move between splited windows - ctrl+ww
 
 
 
@@ -90,4 +97,108 @@ Composing Texts
 ---------------
 ---------------
 
+@- Write a string multiple time - esc <number> i <text to write> esc
 
+@- Insert new line after current line - o
+
+@- Insert new line before current line - O
+
+@- Delete - x (works as delete key)
+
+@- Backspace - X
+
+@- Replace a character - Select the character, press r, write the new character.
+
+@- Cut - d
+
+@- Cut to the end of the line - D
+
+@- Cut multiple words - d<number>w e.g. d3w
+
+@- Cut to the end of the line and switch to INSERT mode - S
+
+@- Yank - y
+
+@- Yank current line - yy
+
+@- Paste - p
+
+@- Yank to the clipboard - "+y
+
+@- Paste from clipboard - "+p
+
+@- Undo - u
+
+@- Redo - ctrl+r
+
+@- Append text at the end of current line - A
+
+@- Append text from right side of cursor - a
+
+
+
+-------------------------
+-------------------------
+Searching inside document
+-------------------------
+-------------------------
+
+@- Find next occurrence of character - f<word to search>
+
+@- Find previous occurrence of character - F<character To search>
+
+@- Find specific number of occurrence of character - f<number><character to search> e.g. 3fl (to find 3rd occurrence of l)
+
+@- Find next occurrence of word under cursor - *
+
+@- Find previous occurrence of word under cursor - #
+
+@- To search string - /<string to search>
+
+@- Search next occurrence of the string - n
+
+@- Search previous occurrence of string - N
+
+
+
+----------------
+----------------
+Yet More Command
+----------------
+----------------
+
+@- Repeat last command - . or ; 
+
+
+
+-------------
+-------------
+Color Schemes
+-------------
+-------------
+
+@- See list of color schemes - :colorscheme <space> <tab>
+
+@- Check current color scheme - :echo g:colors_name
+
+@- Change a color scheme - :colorscheme <color scheme name>
+
+@- Color scheme folder path - usr/share/vim/vim74/colors
+
+
+
+------------
+------------
+.vimrc File
+------------
+------------
+
+@- Commenting in .vimrc - "<comment to write>
+
+@- Enable spell checking feature - set spell
+
+@- Enable line number - set number
+
+@- Set default color scheme - colorscheme <color scheme name>
+
+@- Call a function from vim file - :call <function name()>

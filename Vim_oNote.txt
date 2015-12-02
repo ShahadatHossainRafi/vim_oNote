@@ -30,7 +30,7 @@ Vim Basic
 
 @- To switch to REPLACE mode...
 
-   R
+   Press "R" key.
 
 @- To get help...
 
@@ -127,11 +127,11 @@ Opening, Closing & Saving Files
 
 
 
-----------------
-----------------
-Splitting Window
-----------------
-----------------
+-------------------------------
+-------------------------------
+Working Within Multiple Windows
+-------------------------------
+-------------------------------
 
 @- To split an window...
 
@@ -330,13 +330,13 @@ Color Schemes
 
    :colorscheme <tab> (After :colorscheme press space and then press tab button repeatedly to see list of color schemes.)
 
-@- To change a color scheme...
-
-   :colorscheme <name of the color scheme>
-
 @- To see which color scheme is currently showing...
 
    :echo g:colors_name
+
+@- To change a color scheme...
+
+   :colorscheme <name of the color scheme>
 
 @- Color scheme folder path...
 
